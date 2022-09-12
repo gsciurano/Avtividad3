@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   body{
+       background-color: rgb(44, 29, 203);
+   
+   }
+   header{
+       width: 100%;
+       height: 200px;
+       background-color: rgb(226, 226, 211);
+       margin: 0px;
+   
+   }
+   footer{
+       width: 95%;
+       height: 50px;
+      background-color: rgb(241, 241, 241);
+     text-align: center;
+     padding: 20px;
+     margin: 20px;
+   }
+   
+   
+   nav{
+       width: 100%;
+   
+       background-color: rgb(213, 213, 216); 
+       list-style-type: none;
+       text-align: center;
+       margin: 0;
+       padding: 0;
+   }
+   
+   nav ul li{
+       display: inline-block;
+       font-size: 20px;
+       padding: 30px;
+       background-color: rgb(221, 221, 228);
+        
+   }
+   
+   
+   nav ul li a:hover {
+       color:rgb(18, 18, 18);
+       padding: 20px;
+
+   }
+   
+   .TituloPrincipal{
+        text-align: center;
+        background-color: rgb(244, 240, 240);
+        width: 100%;
+       border-radius: 20px;
+   }
+   .contenedor{
+       width: 100%;
+       text-align: center;
+    
+   }
+   
+   .imgpresentacion{
+       width: 50%;
+       border-radius: 20px;
+       box-shadow: 10px 10px 5px rgb(234, 238, 238);
+   }
+   .TituloPagina{
+       text-align: center;
+       background-color: rgb(230, 227, 227);
+       color: rgb(237, 236, 236);
+   }
+   
+   .contenedorflex{
+       display: flex;
+   }
+   .cajaintegrante{
+       background-color: rgb(229, 188, 41);
+       width: 300px;
+       margin: 20px;
+       padding: 10px;
+       border-radius: 20px;
+       box-shadow:10px 10px 5px rgb(194, 195, 195);
+       text-align: center;
+   
+   }
+   .fotointegrante{
+       width: 100%;
+       box-sizing: border-box;
+       border-top-left-radius: 20px;
+       border-top-right-radius: 20px;
+       
+   
+   }
+   .NombreIntegrante{
+    
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: larger;
+       color: rgb(221, 219, 223);
+       text-align: center;
+       
+   }
